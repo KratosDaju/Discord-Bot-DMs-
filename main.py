@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv('DISCORD_BOT_TOKEN', 'MTQ4NjM0MjQ0NjcxNDQ1NDA4Ng.GieYay.u71eAj3a3XtYlHtRP-kRffWV7JQC5GdbaHfFNE')
+TOKEN = os.getenv('DISCORD_BOT_TOKEN', 'Your token')
 
-YOUR_USER_ID = int(os.getenv('YOUR_USER_ID', '753629960173912154'))
+YOUR_USER_ID = int(os.getenv('YOUR_USER_ID', 'your id'))
 
 ALLOWED_CHANNEL_ID = int(os.getenv('ALLOWED_CHANNEL_ID')) if os.getenv('ALLOWED_CHANNEL_ID') else None
 
